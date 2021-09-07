@@ -185,9 +185,9 @@ console.log( y );
 
 ## See Also
 
--   [`@stdlib/stats/base/cumax`][@stdlib/stats/base/cumax]: calculate the cumulative maximum of a strided array.
--   [`@stdlib/stats/base/dcumin`][@stdlib/stats/base/dcumin]: calculate the cumulative minimum of double-precision floating-point strided array elements.
--   [`@stdlib/stats/base/scumin`][@stdlib/stats/base/scumin]: calculate the cumulative minimum of single-precision floating-point strided array elements.
+-   <span class="package-name">[`@stdlib/stats/base/cumax`][@stdlib/stats/base/cumax]</span><span class="delimiter">: </span><span class="description">calculate the cumulative maximum of a strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/base/dcumin`][@stdlib/stats/base/dcumin]</span><span class="delimiter">: </span><span class="description">calculate the cumulative minimum of double-precision floating-point strided array elements.</span>
+-   <span class="package-name">[`@stdlib/stats/base/scumin`][@stdlib/stats/base/scumin]</span><span class="delimiter">: </span><span class="description">calculate the cumulative minimum of single-precision floating-point strided array elements.</span>
 
 </section>
 
@@ -253,7 +253,6 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [mdn-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
-
 
 <!-- <related-links> -->
 
