@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import cumin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-cumin@esm/index.mjs';
+import cumin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-cumin@v0.1.1-esm/index.mjs';
 ```
 
 #### cumin( N, x, strideX, y, strideY )
@@ -157,7 +157,7 @@ cumin.ndarray( 4, x, 2, 1, y, -1, y.length-1 );
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@esm/index.mjs';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
-import cumin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-cumin@esm/index.mjs';
+import cumin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-cumin@v0.1.1-esm/index.mjs';
 
 var y;
 var x;
