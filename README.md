@@ -41,14 +41,32 @@ limitations under the License.
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-base-cumin
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import cumin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-cumin@deno/mod.js';
+var cumin = require( '@stdlib/stats-base-cumin' );
 ```
 
 #### cumin( N, x, strideX, y, strideY )
@@ -86,7 +104,7 @@ Note that indexing is relative to the first index. To introduce an offset, use [
 <!-- eslint-disable stdlib/capitalized-comments -->
 
 ```javascript
-import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
+var Float64Array = require( '@stdlib/array-float64' );
 
 // Initial arrays...
 var x0 = new Float64Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
@@ -136,7 +154,7 @@ cumin.ndarray( 4, x, 2, 1, y, -1, y.length-1 );
 ## Notes
 
 -   If `N <= 0`, both functions return `y` unchanged.
--   Depending on the environment, the typed versions ([`dcumin`][@stdlib/stats/base/dcumin], [`scumin`][@stdlib/stats/base/scumin], etc.) are likely to be significantly more performant.
+-   Depending on the environment, the typed versions ([`dcumin`][@stdlib/stats/base/dcumin], [`scumin`][@stdlib/stats/strided/scumin], etc.) are likely to be significantly more performant.
 -   Both functions support array-like objects having getter and setter accessors for array element access (e.g., [`@stdlib/array-base/accessor`][@stdlib/array/base/accessor]).
 
 </section>
@@ -150,9 +168,9 @@ cumin.ndarray( 4, x, 2, 1, y, -1, y.length-1 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
-import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
-import cumin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-cumin@deno/mod.js';
+var Float64Array = require( '@stdlib/array-float64' );
+var discreteUniform = require( '@stdlib/random-array-discrete-uniform' );
+var cumin = require( '@stdlib/stats-base-cumin' );
 
 var x = discreteUniform( 10, 0, 100, {
     'dtype': 'float64'
@@ -185,7 +203,7 @@ console.log( y );
 
 -   <span class="package-name">[`@stdlib/stats-base/cumax`][@stdlib/stats/base/cumax]</span><span class="delimiter">: </span><span class="description">calculate the cumulative maximum of a strided array.</span>
 -   <span class="package-name">[`@stdlib/stats-base/dcumin`][@stdlib/stats/base/dcumin]</span><span class="delimiter">: </span><span class="description">calculate the cumulative minimum of double-precision floating-point strided array elements.</span>
--   <span class="package-name">[`@stdlib/stats-base/scumin`][@stdlib/stats/base/scumin]</span><span class="delimiter">: </span><span class="description">calculate the cumulative minimum of single-precision floating-point strided array elements.</span>
+-   <span class="package-name">[`@stdlib/stats-strided/scumin`][@stdlib/stats/strided/scumin]</span><span class="delimiter">: </span><span class="description">calculate the cumulative minimum of single-precision floating-point strided array elements.</span>
 
 </section>
 
@@ -200,7 +218,7 @@ console.log( y );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -265,17 +283,17 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [mdn-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 
-[@stdlib/array/base/accessor]: https://github.com/stdlib-js/array-base-accessor/tree/deno
+[@stdlib/array/base/accessor]: https://github.com/stdlib-js/array-base-accessor
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/cumax]: https://github.com/stdlib-js/stats-base-cumax/tree/deno
+[@stdlib/stats/base/cumax]: https://github.com/stdlib-js/stats-base-cumax
 
-[@stdlib/stats/base/dcumin]: https://github.com/stdlib-js/stats-base-dcumin/tree/deno
+[@stdlib/stats/base/dcumin]: https://github.com/stdlib-js/stats-base-dcumin
 
-[@stdlib/stats/base/scumin]: https://github.com/stdlib-js/stats-base-scumin/tree/deno
+[@stdlib/stats/strided/scumin]: https://github.com/stdlib-js/stats-strided-scumin
 
 <!-- </related-links> -->
 
