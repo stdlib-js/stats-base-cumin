@@ -154,7 +154,7 @@ cumin.ndarray( 4, x, 2, 1, y, -1, y.length-1 );
 ## Notes
 
 -   If `N <= 0`, both functions return `y` unchanged.
--   Depending on the environment, the typed versions ([`dcumin`][@stdlib/stats/base/dcumin], [`scumin`][@stdlib/stats/base/scumin], etc.) are likely to be significantly more performant.
+-   Depending on the environment, the typed versions ([`dcumin`][@stdlib/stats/base/dcumin], [`scumin`][@stdlib/stats/strided/scumin], etc.) are likely to be significantly more performant.
 -   Both functions support array-like objects having getter and setter accessors for array element access (e.g., [`@stdlib/array-base/accessor`][@stdlib/array/base/accessor]).
 
 </section>
@@ -203,7 +203,7 @@ console.log( y );
 
 -   <span class="package-name">[`@stdlib/stats-base/cumax`][@stdlib/stats/base/cumax]</span><span class="delimiter">: </span><span class="description">calculate the cumulative maximum of a strided array.</span>
 -   <span class="package-name">[`@stdlib/stats-base/dcumin`][@stdlib/stats/base/dcumin]</span><span class="delimiter">: </span><span class="description">calculate the cumulative minimum of double-precision floating-point strided array elements.</span>
--   <span class="package-name">[`@stdlib/stats-base/scumin`][@stdlib/stats/base/scumin]</span><span class="delimiter">: </span><span class="description">calculate the cumulative minimum of single-precision floating-point strided array elements.</span>
+-   <span class="package-name">[`@stdlib/stats-strided/scumin`][@stdlib/stats/strided/scumin]</span><span class="delimiter">: </span><span class="description">calculate the cumulative minimum of single-precision floating-point strided array elements.</span>
 
 </section>
 
@@ -293,7 +293,7 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/stats/base/dcumin]: https://github.com/stdlib-js/stats-base-dcumin
 
-[@stdlib/stats/base/scumin]: https://github.com/stdlib-js/stats-base-scumin
+[@stdlib/stats/strided/scumin]: https://github.com/stdlib-js/stats-strided-scumin
 
 <!-- </related-links> -->
 

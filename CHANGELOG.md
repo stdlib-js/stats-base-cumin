@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-21)
+## Unreleased (2025-03-29)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`d26f440`](https://github.com/stdlib-js/stdlib/commit/d26f4407f6a30f4c96bfcd9282bfaa77f5ff8d6a) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`528efd8`](https://github.com/stdlib-js/stdlib/commit/528efd8000eb7b910f64e63796a8a7c2fdfa03cd) - **feat:** add support for accessor arrays and refactor `stats/base/cumin` [(#5335)](https://github.com/stdlib-js/stdlib/pull/5335) _(by Vivek Maurya, Athan Reines)_
 
 </details>
@@ -34,8 +35,9 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Aayush Khanna
 -   Athan Reines
 -   Vivek Maurya
 
