@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-23)
+## Unreleased (2025-07-10)
 
 <section class="features">
 
@@ -16,12 +16,25 @@
 
 <!-- /.features -->
 
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#7606](https://github.com/stdlib-js/stdlib/issues/7606)
+
+</section>
+
+<!-- /.issues -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`ea8ecc0`](https://github.com/stdlib-js/stdlib/commit/ea8ecc050c5e0c4ffbb338c4fd8fb285933ef822) - **test:** update type expectations in `stats/base/cumin` [(#7610)](https://github.com/stdlib-js/stdlib/pull/7610) _(by Deepak Singh)_
 -   [`240d406`](https://github.com/stdlib-js/stdlib/commit/240d406868e9f3699e1d234b32e32e05f81657db) - **refactor:** rename file _(by Athan Reines)_
 -   [`bcb2672`](https://github.com/stdlib-js/stdlib/commit/bcb2672af46fd41da597a8fd8069e0c0bc4d580c) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`d26f440`](https://github.com/stdlib-js/stdlib/commit/d26f4407f6a30f4c96bfcd9282bfaa77f5ff8d6a) - **refactor:** update paths _(by Aayush Khanna)_
@@ -37,10 +50,11 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Athan Reines
+-   Deepak Singh
 -   Vivek Maurya
 
 </section>
