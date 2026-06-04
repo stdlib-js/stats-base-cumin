@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-13)
+## Unreleased (2026-06-04)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`359a92f`](https://github.com/stdlib-js/stdlib/commit/359a92fc942dbc65cb930cffd08d0ac6eb445d90) - **docs:** normalize stride parameter descriptions in `stats/base/cumin` [(#12547)](https://github.com/stdlib-js/stdlib/pull/12547) _(by Philipp Burckhardt)_
 -   [`8f0eca3`](https://github.com/stdlib-js/stdlib/commit/8f0eca3776656e00cdc36beb5bf6acb57ace9940) - **bench:** refactor to use string interpolation in `stats/base/cumin` [(#10471)](https://github.com/stdlib-js/stdlib/pull/10471) _(by Vishal Gaikwad)_
 
 </details>
@@ -24,8 +25,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Philipp Burckhardt
 -   Vishal Gaikwad
 
 </section>
